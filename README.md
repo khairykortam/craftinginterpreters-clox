@@ -12,8 +12,7 @@ This folder contains the C implementation of the interpreter described in the "C
 ## Build & Run
 
 ```sh
-gcc main.c lexer.c parser.c interpreter.c -o interpreter
-./interpreter
+gcc -g -O0 -o clox main.c chunk.c memory.c debug.c value.c vm.c compiler.c scanner.c object.c table.c
 ```
 
 ## License
