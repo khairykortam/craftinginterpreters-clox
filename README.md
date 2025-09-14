@@ -5,8 +5,8 @@ This folder contains the C implementation of the interpreter described in the "C
 ## Files
 
 - `main.c`: Entry point for the interpreter.
-- `lexer.c`: Lexical analysis (tokenizer).
-- `parser.c`: Syntax analysis (parser).
+- `memory.c`: handling memory.
+- `vm.c`: the compiler's virtual machine.
 - `interpreter.c`: Runtime execution.
 
 ## Build & Run
