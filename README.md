@@ -7,7 +7,11 @@ This folder contains the C implementation of the interpreter described in the "C
 - `main.c`: Entry point for the interpreter.
 - `memory.c`: handling memory.
 - `vm.c`: the compiler's virtual machine.
-- `interpreter.c`: Runtime execution.
+- `compiler.c`: compiling into bytecode.
+-  `object.c`: representing objects.
+-  `scanner.c`: lexing and parsing into tokens.
+-  `table.c`: hash table implementation .
+-  `value.c`: values representation.
 
 ## Build & Run
 
